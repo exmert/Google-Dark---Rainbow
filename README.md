@@ -8,7 +8,7 @@ You can change the color options based on your liking under style manager. It wo
 
 To install the usercss, you need **Stylus**. You can get it from [Chrome webstore](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Mozilla add-ons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/).
 
-Once you have, click here: [usercss](https://raw.githubusercontent.com/exmert/Google-Dark---Rainbow/main/GoogleDark-Rainbow.user.css)
+Once you have, click here: [usercss](GoogleDark-Rainbow.user.css)
 
 ## Screenshots
 
