@@ -12,26 +12,8 @@ Once you have, click here: <a href="https://raw.githubusercontent.com/exmert/Goo
 
 ## Screenshots
 
-|   Default    |  Example style  | Example style |
-| ------------ | --------------- | ------------- |
-| <img src="screenshots/screenshot1.jpg" width="290"> | <img src="screenshots/screenshot2.jpg" width="290"> | <img src="screenshots/screenshot3.jpg" width="290"> | 
-
-Preset for the 2nd screenshot
-* Background #140028
-* Overlay #3c1e50
-* Border #460a64
-* Dark text #3246aa
-* Light text #6482be
-* Buttons/Links #14b4a0
-* Hyperlink #be140a
-* Website name #fafa00
-
-Preset for the 3rd screenshot
-* Background #283250
-* Overlay #001432
-* Border #3ca05a
-* Dark text #a05a3c
-* Light text #d22828
-* Buttons/Links #c864a0
-* Hyperlink #78be32
-* Website name #14dc8c
+| Image | Style preset |
+| ------------ | --------------- |
+| <img src="screenshots/screenshot1.jpg" width="700"> | Default |
+| <img src="screenshots/screenshot2.jpg" width="700"> | Background #140028<br>Overlay #3c1e50<br>Border #460a64<br>Dark text #3246aa<br>Light text #6482be<br>Buttons/Links #14b4a0<br>Hyperlink #be140a<br>Website name #fafa00 |
+| <img src="screenshots/screenshot3.jpg" width="700"> | Background #283250<br>Overlay #001432<br>Border #3ca05a<br>Dark text #a05a3c<br>Light text #d22828<br>Buttons/Links #c864a0<br>Hyperlink #78be32<br>Website name #14dc8c |
