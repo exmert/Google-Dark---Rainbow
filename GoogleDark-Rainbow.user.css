@@ -128,7 +128,7 @@
 }
 
 @-moz-document regexp("^https://www.google.(com|([a-z]{2}))(.[a-z]{2})?/.*") {
-    div.sbdd_b, input.dw-sbi, div.dw-sb-btn, div.sbsb_a, div.I6TXqe, a.rl_item_base, g-inner-card, div.rqTuzc.mnr-c, div.qmv19b, div.XRsWPe.MEdqYd, div.XRsWPe.knVDYb, div.dkw61e, button.sh-dr__prs, div.kLhEKe, a.mlo-c, span.VqFMTc, div.dJcyOc, a.h04bR, span.h04bR, div.yscHWb, div.L43GYb, g-tabs.jtEFhd.u8H8Fd, div.imso-fpm, div.qJnhT, div.nGHNmf, div.Z8r5Gb, span.tsp-g, div.I6a0ee, span.mQo3nc, div.cO53qb, g-fab.U0faLd, g-fab.CNf3nf, span.jfk-radiobutton-radio, span.jfk-radiobutton-radio::after, div.WCKaKb {
+    div.sbdd_b, input.dw-sbi, div.dw-sb-btn, div.sbsb_a, div.I6TXqe, a.rl_item_base, g-inner-card, div.rqTuzc.mnr-c, div.qmv19b, div.XRsWPe.MEdqYd, div.XRsWPe.knVDYb, div.dkw61e, button.sh-dr__prs, div.kLhEKe, a.mlo-c, span.VqFMTc, div.dJcyOc, a.h04bR, span.h04bR, div.yscHWb, div.L43GYb, g-tabs.jtEFhd.u8H8Fd, div.imso-fpm, div.qJnhT, div.nGHNmf, div.Z8r5Gb, span.tsp-g, div.I6a0ee, span.mQo3nc, div.cO53qb, g-fab.U0faLd, g-fab.CNf3nf, span.jfk-radiobutton-radio, span.jfk-radiobutton-radio::after, div.WCKaKb, div.MGqjK, div.MGqjK {
 		background-color: /*[[c_background]]*/ !important;
 		border-color: /*[[c_border]]*/ !important;
 		color: /*[[ct_dark]]*/ !important;
@@ -140,6 +140,9 @@
     }
     input.YbqTTb:hover, g-flat-button.BwMo1:hover, input.dw-sbi:hover, div.dw-sb-btn:hover, li.dw-sbs:hover, a.F9PbJd:hover, div.y8Jpof:hover, div.rqTuzc.mnr-c:hover, div.WGYX8:hover, div.XRsWPe.MEdqYd:hover, div.XRsWPe.knVDYb:hover, a.EASEnb:hover, g-raised-button.cbjjnc:hover, div.VvrH3b:hover, div.klitem:hover, div.EsIlz:hover, div.MXl0lf:hover, input.gNO89b:hover, input.RNmpXc:hover, li.PfSDnb:hover, div.Hm7Qac:hover, a.f9UGee:hover, li.hdtbItm a.qs:hover, span.q:hover, a.rl_item.rl_item_base:hover, div.dJcyOc:hover, a.h04bR:hover, span.h04bR:hover, div.yscHWb:hover, a.OFxjge:hover, g-fab.U0faLd:hover, td.imspo_mt__sc-spc, div.tsp-cd:hover, g-fab.CNf3nf:hover, div.imso-hov:hover, hr.pb5vrc, div.I6a0ee:hover, g-inline-expansion-bar.AvEv1e:hover, a.H73aad:hover {
 		background-color: /*[[c_border]]*/ !important;
+    }
+    input.gNO89b, input.RNmpXc {
+        background-image: none !important;
     }
     td.imso-hov, a.KYeOtb.hide-focus-ring.rWAMad, div.tsp-vc {
 		border-color: /*[[c_border]]*/ !important;
