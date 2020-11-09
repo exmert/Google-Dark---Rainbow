@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Google Dark - Rainbow
 @namespace      github.com/exmert
-@version        1.0.0
+@version        1.0.1
 @description    Customizable theme for most Google sites, dark by default.
 @author         exmert
 @homepageURL    https://github.com/exmert/Google-Dark---Rainbow
@@ -312,31 +312,46 @@
 }
 
 @-moz-document regexp("^https://drive.google.(com|([a-z]{2}))(.[a-z]{2})?/.*") {
-    div.a-qc-La, div.a-D-B, div.N7iPof, div.a-ub-D, div.a-ub-oa, div.Kk7lMc-Yb-Il-j, div.lb-k-V, div.h-R-w-d.g-Qb {
+    div.a-qc-La, div.a-D-B, div.N7iPof, div.a-ub-D, div.a-ub-oa, div.Kk7lMc-Yb-Il-j, div.h-R-w-d.g-Qb, div.a-gd-j, div.a-t-D, div.l-u-xb, div.l-u-Ab-zb, div.lb-k-Gb > button:not(.h-De-Y) {
 		background-color: /*[[c_background]]*/ !important;
     }
-    div.lb-k-x, div.a-U-ye-ha > .a-U-J, button.x6jRSb, div.h-uj {
+    div.lb-k-x, div.a-U-ye-ha > .a-U-J, button.x6jRSb, div.h-uj, div.a-S-dc, div.jGNTYb, div.lb-k, div.lb-k-V, section.wMElNe {
 		background-color: /*[[c_overlay]]*/ !important;
     }
-    div.a-U-J:hover, button.x6jRSb:hover {
+    div.a-U-J:hover, button.x6jRSb:hover, div.a-t-J-ha, div.l-u-ha, c-wiz.aabwZd:not(.KBj6Qd) .GZwC2b {
 		background-color: /*[[c_border]]*/ !important;
+    }
+    div.a-S-dc, div.jGNTYb, div.l-u-xb, section.wMElNe {
+		border-color: /*[[c_border]]*/ !important;
     }
     div.H-qa-Ma-d-Jb {
 		border-color: /*[[ct_clickable]]*/ !important;
     }
-    div.a-q-Jc-bj, div.a-q-Lb-go, span.YUNZ4c, div.o-Yc-o-T, span.lb-k-V-r, div.ca-k-wb-bd-r, div.a-fd-ba-lp, div.a-fd-ba-Q-ij {
+    div.a-d-vc {
+        border-right: /*[[c_border]]*/ 1px solid !important;
+    }
+    div.a-D-B-WErN3d-j, div.a-s-Ba-Ak, div.a-t-D, div.a-t-cb, div.N7iPof, div.WYuW0e {
+        border-bottom: /*[[c_border]]*/ 1px solid !important;
+    }
+    div.a-t-J-ha > div.a-t-cb, c-wiz.aabwZd:not(.KBj6Qd) .GZwC2b {
+        border-bottom: /*[[c_background]]*/ 1px solid !important;
+    }
+    div.a-q-Jc-bj, div.a-q-Lb-go, span.YUNZ4c, div.o-Yc-o-T, span.lb-k-V-r, div.ca-k-wb-bd-r, div.a-fd-ba-lp, div.a-fd-ba-Q-ij, div.a-t-D-cb, div.a-t-J, div.a-nb-D, div.a-q-Xc-Ab, div.a-hd-Il-w-d, div.lb-k-Gb > button:not(.h-De-Y), div.ab-S-Wg {
 		color: /*[[ct_dark]]*/ !important;
     }
-    div.M3pype, div.lb-k, div.h-R-w-d.g-Qb, div.a-fd-ba-Q-Qa-ga, div.a-Va-Zb-ga, div.h-v-x, label.a-Va-Zb-ga, input.a-Va-Zb-qf-vb::placeholder {
+    div.M3pype, div.lb-k, div.h-R-w-d.g-Qb, div.a-fd-ba-Q-Qa-ga, div.a-Va-Zb-ga, label.a-Va-Zb-ga, input.a-Va-Zb-qf-vb::placeholder, div.a-t, span.l-Ab-T-r, div.WYuW0e, div.l-u-xb, div.l-u-V, div.ab-S-Wg b, section.wMElNe {
 		color: /*[[ct_light]]*/ !important;
     }
-    div.h-R-w-d.a-l-S-Pc-w-d, div.a-Mg-V-T, div.h-ra, span.a-s-T, button.x6jRSb, div.g-d-wd, span.a-Ws-nb-Oh-Ma-A {
+    div.h-R-w-d.a-l-S-Pc-w-d, div.a-Mg-V-T, div.h-ra, span.a-s-T, button.x6jRSb, div.g-d-wd, span.a-Ws-nb-Oh-Ma-A, span.a-S-dc-Q-r, span.kc-A, a.cr-hTVF2c-r, a.ml-Pr-A, button.qoCZef {
 		color: /*[[ct_clickable]]*/ !important;
     }
-    div.l-o-c-qd > svg, svg.a-s-fa-Ha-pa, div.a-q-me-Z-c > svg {
+    div.l-o-c-qd > svg, svg.a-s-fa-Ha-pa, div.a-q-me-Z-c > svg, div.a-t-J, path.a-s-fa-Ha-pa {
         fill: /*[[ct_dark]]*/ !important;
     }
-    div.a-d-c > svg, svg.Yb-Il-d-c, svg.a-qd-va {
+    svg.a-s-fa-Ha-pa {
+        fill: /*[[ct_light]]*/ !important;
+    }
+    div.a-d-c > svg, svg.Yb-Il-d-c, svg.a-qd-va, rect.B {
         fill: /*[[ct_clickable]]*/ !important;
     }
 }
