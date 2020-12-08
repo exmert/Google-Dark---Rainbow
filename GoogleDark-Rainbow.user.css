@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Google Dark - Rainbow
 @namespace      github.com/exmert
-@version        1.1.0
+@version        1.1.1
 @description    Customizable theme for most Google sites, dark by default.
 @author         exmert
 @homepageURL    https://github.com/exmert/Google-Dark---Rainbow
@@ -18,7 +18,7 @@
 ==/UserStyle== */
 
 @-moz-document regexp("^https\:\/\/((www|accounts|books|calendar|contacts|drive|images|myaccount|myactivity|news|ogs|photos|play|scholar|translate)\.)?google\.(com|([a-z]{2}))(\.[a-z]{2})?\/.*") {
-    body, header, footer {
+    html, body, header, footer {
 		background-color: /*[[c_background]]*/ !important;
 		border-color: /*[[c_border]]*/ !important;
 		color: /*[[ct_dark]]*/ !important;
@@ -45,7 +45,7 @@
     span.Rq5Gcb:hover {
 		color: /*[[ct_dark]]*/ !important;
     }
-    .gb_wb, .gb_Ib {
+    .gb_Ib {
 		background-color: /*[[c_background]]*/ !important;
 		border-color: /*[[c_border]]*/ !important;
     }
@@ -53,7 +53,7 @@
 		background-color: /*[[c_overlay]]*/ !important;
 		border-color: /*[[c_border]]*/ !important;
     }
-    a.gb_Ab:hover, a.gb_wb:hover, a.gb_Ib:hover, a.gb_Qb:hover {
+    a.gb_Ab:hover, a.gb_Ib:hover, a.gb_Qb:hover {
 		background-color: /*[[c_border]]*/ !important;
     }
     a.gb_yb:hover {
@@ -62,21 +62,21 @@
     .gb_qb, .gb_sb, .gb_9b {
 		color: /*[[ct_light]]*/ !important;
     }
-    .gb_5b, .gb_wb, .gb_Fb, .gb_Ib {
+    .gb_5b, .gb_Fb, .gb_Ib {
 		color: /*[[ct_clickable]]*/ !important;
     }
-    .RNNXgb, .aajZCb, .zthhpf, .lV0vqc, #QDMvGf, #Ycyxxc, .gb_6e, .sbibod, .sbib_a, .jBmls, #oc-search-input, .ac-renderer, .ac-renderer .ac-row, .a-jn-yd, .Aul2T, .KC1dQ {
+    .RNNXgb, .aajZCb, .zthhpf, .lV0vqc, #QDMvGf, #Ycyxxc, .gb_6e, .sbibod, .sbib_a, .jBmls, #oc-search-input, .ac-renderer, .ac-renderer .ac-row, .a-jn-yd, .Aul2T, .KC1dQ, .gb_zb {
 		background-color: /*[[c_overlay]]*/ !important;
 		border-color: /*[[c_border]]*/ !important;
     }
-    .iOGqzf.mJEC7c, .thCpXb {
+    .iOGqzf.mJEC7c, .thCpXb, .gb_5e, .gb_vb, .gb_Hb {
 		background-color: /*[[c_background]]*/ !important;
 		border-color: /*[[c_border]]*/ !important;
     }
-    div.RNNXgb:hover, li.sbct:hover, div.zthhpf:hover, li.E2oEG:hover, input#Ycyxxc:hover, form.gb_6e:hover, div.sbib_a:hover, div.oKubKe:hover, div.Aul2T:hover, li.FnhVzb:hover, input#oc-search-input:hover, div.ac-renderer .ac-row:hover {
+    div.RNNXgb:hover, li.sbct:hover, div.zthhpf:hover, li.E2oEG:hover, input#Ycyxxc:hover, form.gb_5e:hover, form.gb_6e:hover, div.sbib_a:hover, div.oKubKe:hover, div.Aul2T:hover, li.FnhVzb:hover, input#oc-search-input:hover, div.ac-renderer .ac-row:hover, .gb_vb:hover, .gb_Hb:hover, .gb_zb:hover, .gb_xb:hover {
 		background-color: /*[[c_border]]*/ !important;
     }
-    .gLFyf, .sbl1, .JSAgYe, .o44hBf, #Ycyxxc, .Ax4B8, #lst-ib, .oKubKe, .gb_qf, .a-jn-yd, .yNVtPc, .RwVyJb, #oc-search-input, .ac-renderer .ac-row {
+    .gLFyf, .sbl1, .JSAgYe, .o44hBf, #Ycyxxc, .Ax4B8, #lst-ib, .oKubKe, .gb_qf, .gb_rb, .a-jn-yd, .yNVtPc, .RwVyJb, #oc-search-input, .ac-renderer .ac-row {
 		color: /*[[ct_light]]*/ !important;
     }
     .H4qWMc.aXIg1b, .thCpXb, .bmkrS, .jNjBJf, .znDVdd {
@@ -85,17 +85,17 @@
 }
 
 @-moz-document regexp("^https\:\/\/((www|images)\.)?google\.(com|([a-z]{2}))(\.[a-z]{2})?\/.*") {
-    g-inner-card, .sbdd_b, .dw-sbi, .dw-sb-btn, .sbsb_a, .I6TXqe, .rl_item_base, .rqTuzc.mnr-c, .qmv19b, .XRsWPe.MEdqYd, .XRsWPe.knVDYb, .dkw61e, .sh-dr__prs, .kLhEKe, a.mlo-c, .VqFMTc, .dJcyOc, .h04bR, .yscHWb, .L43GYb, .jtEFhd.u8H8Fd, .imso-fpm, .qJnhT, .nGHNmf, .Z8r5Gb, .tsp-g, .I6a0ee, .mQo3nc, .cO53qb, .U0faLd, .CNf3nf, .jfk-radiobutton-radio, .jfk-radiobutton-radio::after, .WCKaKb, .MGqjK, #fbar, #hdtbSum, #hdtbMenus, #appbar, .GHDvEf, .sfbg, .s8GCU, .jZWadf, .qcTKEe, .gacct-hero-video-clip, .zQTmif, .footerInner {
+    g-inner-card, .sbdd_b, .dw-sbi, .dw-sb-btn, .sbsb_a, .I6TXqe, .rl_item_base, .rqTuzc.mnr-c, .qmv19b, .XRsWPe.MEdqYd, .XRsWPe.knVDYb, .dkw61e, .sh-dr__prs, .kLhEKe, a.mlo-c, .VqFMTc, .dJcyOc, .h04bR, .yscHWb, .L43GYb, .jtEFhd.u8H8Fd, .imso-fpm, .qJnhT, .nGHNmf, .Z8r5Gb, .tsp-g, .I6a0ee, .mQo3nc, .cO53qb, .U0faLd, .CNf3nf, .jfk-radiobutton-radio, .jfk-radiobutton-radio::after, .WCKaKb, .MGqjK, #fbar, #hdtbSum, #hdtbMenus, #appbar, .GHDvEf, .sfbg, .s8GCU, .jZWadf, .qcTKEe, .gacct-hero-video-clip, .zQTmif, .footerInner, .widget-pane-content, .yg51vc {
 		background-color: /*[[c_background]]*/ !important;
 		border-color: /*[[c_border]]*/ !important;
 		color: /*[[ct_dark]]*/ !important;
     }
-    .YbqTTb, .BwMo1, .F9PbJd, .kp-blk, .lgJJud, .WGYX8, .vk_c, .zRQJhd, .EASEnb, .rl_feature, .rlc__slider, .rlc__slider-page, div.mlo-c, .G9CET, .iDGvh, .sh-dlr__list-result, .cbjjnc, .VvrH3b, .kappbar, .EsIlz, .gEYEQc, .MXl0lf, .gNO89b, .RNmpXc, .yOo6xe, .WaWKOe, .mfkH6e, .qdnLaf, .QnfS4e, .jTw2d, .QB7Vee, .tb_c, .imso-hov, .ey2qkf, .v3Iwj88yxmA__leaderboard, .hMYuh, .LyicNe, .dbHxM, .AvEv1e, .H73aad, .jq2rAe, .cF4V5c, .Ix6LGe, .tFPnEd, .hdtbItm, .h-c-header__bar, .gacct-hero-feature, .glue-c-tabset__panel-container, .action-menu-panel, .KZmu8e {
+    .YbqTTb, .BwMo1, .F9PbJd, .kp-blk, .lgJJud, .WGYX8, .vk_c, .zRQJhd, .EASEnb, .rl_feature, .rlc__slider, .rlc__slider-page, div.mlo-c, .G9CET, .iDGvh, .sh-dlr__list-result, .cbjjnc, .VvrH3b, .kappbar, .EsIlz, .gEYEQc, .MXl0lf, .gNO89b, .RNmpXc, .yOo6xe, .WaWKOe, .mfkH6e, .qdnLaf, .QnfS4e, .jTw2d, .QB7Vee, .tb_c, .imso-hov, .ey2qkf, .v3Iwj88yxmA__leaderboard, .hMYuh, .LyicNe, .dbHxM, .AvEv1e, .H73aad, .jq2rAe, .cF4V5c, .Ix6LGe, .tFPnEd, .hdtbItm, .h-c-header__bar, .gacct-hero-feature, .glue-c-tabset__panel-container, .action-menu-panel, .KZmu8e, .searchbox, .suggestions, .rLwmCGCu6mP__card {
 		background-color: /*[[c_overlay]]*/ !important;
 		border-color: /*[[c_border]]*/ !important;
 		color: /*[[ct_light]]*/ !important;
     }
-    input.YbqTTb:hover, g-flat-button.BwMo1:hover, input.dw-sbi:hover, div.dw-sb-btn:hover, li.dw-sbs:hover, a.F9PbJd:hover, div.y8Jpof:hover, div.rqTuzc.mnr-c:hover, div.WGYX8:hover, div.XRsWPe.MEdqYd:hover, div.XRsWPe.knVDYb:hover, a.EASEnb:hover, g-raised-button.cbjjnc:hover, div.VvrH3b:hover, div.klitem:hover, div.EsIlz:hover, div.MXl0lf:hover, input.gNO89b:hover, input.RNmpXc:hover, li.PfSDnb:hover, div.Hm7Qac:hover, a.f9UGee:hover, li.hdtbItm a.qs:hover, span.q:hover, a.rl_item.rl_item_base:hover, div.dJcyOc:hover, a.h04bR:hover, span.h04bR:hover, div.yscHWb:hover, a.OFxjge:hover, g-fab.U0faLd:hover, td.imspo_mt__sc-spc, div.tsp-cd:hover, g-fab.CNf3nf:hover, div.imso-hov:hover, hr.pb5vrc, div.I6a0ee:hover, g-inline-expansion-bar.AvEv1e:hover, a.H73aad:hover, g-menu-item.hide-focus-ring:hover {
+    input.YbqTTb:hover, g-flat-button.BwMo1:hover, input.dw-sbi:hover, div.dw-sb-btn:hover, li.dw-sbs:hover, a.F9PbJd:hover, div.y8Jpof:hover, div.rqTuzc.mnr-c:hover, div.WGYX8:hover, div.XRsWPe.MEdqYd:hover, div.XRsWPe.knVDYb:hover, a.EASEnb:hover, g-raised-button.cbjjnc:hover, div.VvrH3b:hover, div.klitem:hover, div.EsIlz:hover, div.MXl0lf:hover, input.gNO89b:hover, input.RNmpXc:hover, li.PfSDnb:hover, div.Hm7Qac:hover, a.f9UGee:hover, li.hdtbItm a.qs:hover, span.q:hover, a.rl_item.rl_item_base:hover, div.dJcyOc:hover, a.h04bR:hover, span.h04bR:hover, div.yscHWb:hover, a.OFxjge:hover, g-fab.U0faLd:hover, td.imspo_mt__sc-spc, div.tsp-cd:hover, g-fab.CNf3nf:hover, div.imso-hov:hover, hr.pb5vrc, div.I6a0ee:hover, g-inline-expansion-bar.AvEv1e:hover, a.H73aad:hover, g-menu-item.hide-focus-ring:hover, div.suggest:hover, div.rLwmCGCu6mP__card:hover {
 		background-color: /*[[c_border]]*/ !important;
     }
     .gNO89b, .RNmpXc {
@@ -123,19 +123,19 @@
     .tsp-wi {
         border-right: /*[[ct_light]]*/ 6px solid !important;
     }
-    .nChh6e {
+    .nChh6e, .gm2-hairline-border {
         border: /*[[c_border]]*/ 1px solid !important;
     }
-    .dw-sbs, .mfMhoc, .med, .YyVfkd, .IsZvec, .s, .eJ7tvc, .Ss2Faf, .hb8SAc, .wwUB2c, .zECGdd, .RnpQO, .ZIF80, .TZZypb, .LHJvCe, .IThcWe, .gyWzne, .Tqvz7b, .uiBRm, .OZ8wsd, .BP43u, .H1ccWd, .xt8Uw, .ELcVZ, .pYBuhc.IVdU7b .NYCmxf, .sh-sr__shop-result-header, .CV7Lzb, .hBUZL, .Y3v8qd, .VNSPub, .cmlJmd, .f, .rsir2d, .HNdZMe, .yxsAke, .klmeta, .tr9W5c, .yDYNvb.lyLwlc, .imspo_mt__lt-t, .imspo_mt__match-sc, .imspo_mt__cmd, .jyC4xe, .WTHmze, .Od5Jsd, .iv236, .r3IKmc, .smiUbb, #Wprf1b, .FGlSad, .uDMnUc, .LmREXd, .xlBGCb, .OFxjge, .P1usbc, .vk_gy, .sbl2, .KYeOtb.hide-focus-ring, .kPLAje, .kX21rb, .mus_tt20, .GVj7ae, .BslMec, .ey2qkf, .tuzU3e, .sQjzEd, .HA4Wwf, .AqEFvb, .S23sjd, .cp7THd, .webanswers-webanswers_table__webanswers-table th, .goog-slider li, .sllabel, .ooYbic, .ZgdoBb, .Izi7Rd, .c07z9, .PoKnCd, .yzLxTc, .E2WDKf, .xzrguc, .N6Sb2c, .UVgjof, .b0KoTc, .rQEFy.NZmxZe, .S1FAPd, .VEbNnc, .U6puSd, .EQ4p8c, .sh-dtt__top-tools, .TXwUJf {
+    .dw-sbs, .mfMhoc, .med, .YyVfkd, .IsZvec, .s, .eJ7tvc, .Ss2Faf, .hb8SAc, .wwUB2c, .zECGdd, .RnpQO, .ZIF80, .TZZypb, .LHJvCe, .IThcWe, .gyWzne, .Tqvz7b, .uiBRm, .OZ8wsd, .BP43u, .H1ccWd, .xt8Uw, .ELcVZ, .pYBuhc.IVdU7b .NYCmxf, .sh-sr__shop-result-header, .CV7Lzb, .hBUZL, .Y3v8qd, .VNSPub, .cmlJmd, .f, .rsir2d, .HNdZMe, .yxsAke, .klmeta, .tr9W5c, .yDYNvb.lyLwlc, .imspo_mt__lt-t, .imspo_mt__match-sc, .imspo_mt__cmd, .jyC4xe, .WTHmze, .Od5Jsd, .iv236, .r3IKmc, .smiUbb, #Wprf1b, .FGlSad, .uDMnUc, .LmREXd, .xlBGCb, .OFxjge, .P1usbc, .vk_gy, .sbl2, .KYeOtb.hide-focus-ring, .kPLAje, .kX21rb, .mus_tt20, .GVj7ae, .BslMec, .ey2qkf, .tuzU3e, .sQjzEd, .HA4Wwf, .AqEFvb, .S23sjd, .cp7THd, .webanswers-webanswers_table__webanswers-table th, .goog-slider li, .sllabel, .ooYbic, .ZgdoBb, .Izi7Rd, .c07z9, .PoKnCd, .yzLxTc, .E2WDKf, .xzrguc, .N6Sb2c, .UVgjof, .b0KoTc, .rQEFy.NZmxZe, .S1FAPd, .VEbNnc, .U6puSd, .EQ4p8c, .sh-dtt__top-tools, .TXwUJf, .section-facts, .suggest-query, .GLOBAL__gm2-caption, .rLwmCGCu6mP__info, .section-weather-text, .PyJv1b, .ayRjaf {
 		color: /*[[ct_dark]]*/ !important;
     }
-    .JolIg, .qrShPb, .aCOpRe em, .SwDSDf, .O8U6h, .imspo_mt__dt-t, .xjRZNc, .gadasb, .uo4vr, .d87Otf, .YRasv, .HboBSb, .vk_bk, .XH1CIc, .uUoqX, .A941ff, .YIikAd, .tsp-tz, .lA0GG, .imspo_mt__lg-st-c, .imspo_mt__pm-infc, .g6Emdf, .fwXO9b, .e9fBA, .mbWiBb, .Oo683d, .nGqo8b, .R1ZKVe, .UKbGGd, .reYxHb, .gDr70c, .rDMtnd, .x0PfEb, span.kKVYgd, .xVXTVe, .wNs7se, .Z0LcW, .YXQ1jd, .cwUqwd, .h-c-header__cta-li-link, .h-c-button--primary, .T14wmb, .kHxwFf, a.gb_4 {
+    .JolIg, .qrShPb, .aCOpRe em, .SwDSDf, .O8U6h, .imspo_mt__dt-t, .xjRZNc, .gadasb, .uo4vr, .d87Otf, .YRasv, .HboBSb, .vk_bk, .XH1CIc, .uUoqX, .A941ff, .YIikAd, .tsp-tz, .lA0GG, .imspo_mt__lg-st-c, .imspo_mt__pm-infc, .g6Emdf, .fwXO9b, .e9fBA, .mbWiBb, .Oo683d, .nGqo8b, .R1ZKVe, .UKbGGd, .reYxHb, .gDr70c, .rDMtnd, .x0PfEb, span.kKVYgd, .xVXTVe, .wNs7se, .Z0LcW, .YXQ1jd, .cwUqwd, .h-c-header__cta-li-link, .h-c-button--primary, .T14wmb, .kHxwFf, a.gb_4, .suggest, .suggest-query .suggest-bold, .rLwmCGCu6mP__title, .zCubwf {
 		color: /*[[ct_light]]*/ !important;
     }
-    .k4DMHe .xXEKkb, .w8qArf .fl, .mDj5wd, .x9emld, .rl_item_base .title, .XRsWPe.MEdqYd, .esuhec, .VJwspe, .PVsnzc, .IZACzd, .fUflyc, .pYBuhc .NYCmxf, .VQN8fd h4, .VZTCjd h3, .isfR2, .RawNCe, .pM4Snf, .RCBpod, .wUrVib, .UiOOze, .imspo_mt__lg-st-c-np, .KYeOtb.hide-focus-ring.rWAMad, .tsp-vct, .imso-regular-font, .JjtOHd, .cfBJGe, .I6a0ee, .aKcFGd, div.kKVYgd, .kltat, .jleFbf, .q, .qs, .NZmxZe, .PNyWAd, .jklcHd, .w6PoOe, .SPmIAf, .r9PaP, .igM9Le, .hdtb-mn-hd, .hdtbItm, .GshZze, #cdrlnk, .f9UGee, .Cq34nf, .gJBeNe, .cF4V5c-ibnC6b, .wBIdUd, .svpdod, .hdtb-mitem .hdtb-dd-b, .bVj5Zb, .WGwSK {
+    .k4DMHe .xXEKkb, .w8qArf .fl, .mDj5wd, .x9emld, .rl_item_base .title, .XRsWPe.MEdqYd, .esuhec, .VJwspe, .PVsnzc, .IZACzd, .fUflyc, .pYBuhc .NYCmxf, .VQN8fd h4, .VZTCjd h3, .isfR2, .RawNCe, .pM4Snf, .RCBpod, .wUrVib, .UiOOze, .imspo_mt__lg-st-c-np, .hide-focus-ring, .tsp-vct, .imso-regular-font, .JjtOHd, .cfBJGe, .I6a0ee, .aKcFGd, div.kKVYgd, .kltat, .jleFbf, .q, .qs, .NZmxZe, .PNyWAd, .jklcHd, .w6PoOe, .SPmIAf, .r9PaP, .igM9Le, .hdtb-mn-hd, .hdtbItm, .GshZze, #cdrlnk, .f9UGee, .Cq34nf, .gJBeNe, .cF4V5c-ibnC6b, .wBIdUd, .svpdod, .hdtb-mitem .hdtb-dd-b, .bVj5Zb, .WGwSK {
 		color: /*[[ct_clickable]]*/ !important;
     }
-    .f3LoEf, .aVSTQd, .JheGif, .Eegi6c, .EZRelc, .xjT6He, .iGBaJe, .SW5pqf, .kno-f.rpBMYb, .vNptk, .XTgbhc, .di8g3 a, .pTi5ve, a .zTpPx {
+    .f3LoEf, .aVSTQd, .JheGif, .Eegi6c, .EZRelc, .xjT6He, .iGBaJe, .SW5pqf, .kno-f.rpBMYb, .vNptk, .XTgbhc, .di8g3 a, .pTi5ve, a .zTpPx, .W8wzH {
 		color: /*[[ct_hyperlink]]*/ !important;
     }
     .dyjrff, .wqg8ad, .cJzOGc, .WF4CUc, .Ywxp6b, .VqFMTc, .qzEoUe, .fxgdke, .pdpvld, .tsp-lv, .tsp-g, .hVpeib, .jUVTC, .dUsgLe, .CEMjEf {
