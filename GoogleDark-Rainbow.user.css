@@ -66,7 +66,7 @@
 }
 
 @-moz-document regexp("^https\:\/\/((www|images)\.)?google\.(com|([a-z]{2}))(\.[a-z]{2})?\/.*") {
-    g-inner-card, .sbdd_b, .dw-sbi, .dw-sb-btn, .I6TXqe, .rl_item_base, .rqTuzc.mnr-c, .qmv19b, .XRsWPe.MEdqYd, .XRsWPe.knVDYb, .dkw61e, .sh-dr__prs, .kLhEKe, a.mlo-c, .VqFMTc, .dJcyOc, .h04bR, .yscHWb, .L43GYb, .jtEFhd.u8H8Fd, .imso-fpm, .qJnhT, .nGHNmf, .Z8r5Gb, .tsp-g, .I6a0ee, .mQo3nc, .cO53qb, .U0faLd, .CNf3nf, .jfk-radiobutton-radio, .jfk-radiobutton-radio::after, .WCKaKb, #fbar, #hdtbSum, #hdtbMenus, #appbar, .GHDvEf, .sfbg, .s8GCU, .jZWadf, .qcTKEe, .gacct-hero-video-clip, .zQTmif, .footerInner, .widget-pane-content, .yg51vc, .Xeztj, .Nxb87, .dr1yeb, .HskPDe, .yvg0ob span, .uch-xa-tl, .kp-blk, .ZVWN5d, .dXdtIf, .FoDaAb {
+    g-inner-card, .sbdd_b, .dw-sbi, .dw-sb-btn, .I6TXqe, .rl_item_base, .rqTuzc.mnr-c, .qmv19b, .XRsWPe.MEdqYd, .XRsWPe.knVDYb, .dkw61e, .sh-dr__prs, .kLhEKe, a.mlo-c, .VqFMTc, .dJcyOc, .h04bR, .yscHWb, .L43GYb, .jtEFhd.u8H8Fd, .imso-fpm, .qJnhT, .nGHNmf, .Z8r5Gb, .tsp-g, .I6a0ee, .mQo3nc, .cO53qb, .U0faLd, .CNf3nf, .jfk-radiobutton-radio, .jfk-radiobutton-radio::after, .WCKaKb, #fbar, #hdtbSum, #hdtbMenus, #appbar, .GHDvEf, .sfbg, .s8GCU, .jZWadf, .qcTKEe, .gacct-hero-video-clip, .zQTmif, .footerInner, .widget-pane-content, .yg51vc, .Xeztj, .Nxb87, .dr1yeb, .HskPDe, .yvg0ob span, .uch-xa-tl, .kp-blk, .ZVWN5d, .dXdtIf, .FoDaAb, .ECgenc {
 		background-color: /*[[c_background]]*/ !important;
 		border-color: /*[[c_border]]*/ !important;
 		color: /*[[ct_dark]]*/ !important;
